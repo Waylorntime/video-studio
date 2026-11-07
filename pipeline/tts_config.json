@@ -1,0 +1,20 @@
+{
+  "endpoint": "wss://openspeech.bytedance.com/api/v3/tts/bidirection",
+  "sample_rate": 24000,
+  "fps": 30,
+  "turn_gap_frames": 6,
+  "voices": {
+    "host": {
+      "speaker": "saturn_zh_female_keainvsheng_tob",
+      "resource_id": "seed-tts-2.0",
+      "speech_rate": 20,
+      "loudness_rate": 0
+    },
+    "guest": {
+      "speaker": "填你的克隆音色 ID（S_ 开头）",
+      "resource_id": "seed-icl-2.0",
+      "speech_rate": 20,
+      "loudness_rate": 0
+    }
+  }
+}

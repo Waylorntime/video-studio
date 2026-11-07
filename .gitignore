@@ -1,0 +1,17 @@
+# 凭证
+.env
+
+# 依赖和产物
+node_modules/
+studio/out/
+qa/
+__pycache__/
+
+# 不随仓库分发的素材（见各目录下的 README.md）
+pipeline/volc_tts/
+studio/public/audio/
+studio/public/characters/*.png
+studio/public/fonts/*.ttf
+studio/public/fonts/*.otf
+studio/public/bgm/*.mp3
+studio/public/bgm/*.wav
